@@ -23,7 +23,7 @@ services:
     environment:
       - JAEGER_AGENT_HOST=jaeger
       - DASHBOARD_URL=http://localhost:9000/
-      - ALLOWED_HOSTS=localhost,api
+      - ALLOWED_HOSTS=localhost,api,analytics.infogito.com
 
   dashboard:
     image: ghcr.io/waytothevenus/saleor-dashboard:latest
